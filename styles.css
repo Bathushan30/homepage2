@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #000;
+  }
+  
+  .eager-section {
+    height: 100vh;
+    width: 100%;
+    background: url('671d20fc8868f98a833f69cc_8\ 1.svg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    isolation: isolate; 
+  }
+  
+  .eager-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0%; 
+    width: 711.25px;
+    height: 628.81px;
+    background: url('grid.svg') no-repeat top right;
+    background-size: contain;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 1;
+  }
+  
+  .eager-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0%; /* Push grid inward from left */
+    width: 711.25px;
+    height: 628.81px;
+    background: url('grid2.svg') no-repeat top left;
+    background-size: contain;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 1;
+  }
+  
+  .overlay {
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .eager-section h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-btn {
+    background-color: #ff3571;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-btn:hover {
+    background-color: #e83065;
+  }
+  
