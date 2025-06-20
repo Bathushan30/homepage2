@@ -12,7 +12,7 @@
   .eager-section {
     height: 100vh;
     width: 100%;
-    background: url('671d20fc8868f98a833f69cc_8\ 1.svg') center/cover no-repeat;
+    background: url('assets/671d20fc8868f98a833f69cc_8\ 1.svg') center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,7 +27,7 @@
     right: 0%; 
     width: 711.25px;
     height: 628.81px;
-    background: url('grid.svg') no-repeat top right;
+    background: url('assets/grid.svg') no-repeat top right;
     background-size: contain;
     z-index: 0;
     pointer-events: none;
@@ -41,7 +41,7 @@
     left: 0%; /* Push grid inward from left */
     width: 711.25px;
     height: 628.81px;
-    background: url('grid2.svg') no-repeat top left;
+    background: url('assets/grid2.svg') no-repeat top left;
     background-size: contain;
     z-index: 0;
     pointer-events: none;
